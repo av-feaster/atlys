@@ -11,7 +11,7 @@ import SwiftUI
 struct atlysApp: App {
     var body: some Scene {
         WindowGroup {
-            Onboarding().ignoresSafeArea()
+            Onboarding()
         }
     }
 }

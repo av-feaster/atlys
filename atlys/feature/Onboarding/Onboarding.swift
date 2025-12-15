@@ -10,7 +10,8 @@ import SwiftUI
 struct Onboarding: View {
     var body: some View {
         
-        VStack(spacing: 12) {
+        VStack(spacing: 8) {
+            Spacer()
             LogoHeader().padding(.top)
             CarouselView(items: CarouselItem.getAllData())
             TextSection().padding(.horizontal)
@@ -20,7 +21,7 @@ struct Onboarding: View {
             SocialLoginButtons().padding(.horizontal)
             Spacer()
             TermsText().padding(16)
-        }.padding(.top,24)
+        }.padding(.bottom, 16)
         
         
         
